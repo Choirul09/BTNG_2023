@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+header {
+  background-image: linear-gradient(to right, rgb(111, 0, 255), rgb(190, 50, 179));
+}
+nav {
+  background: transparent;
+  height: 90px;
+  width: 100%;
+  padding: 0px;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.2);
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  align-items: end;
+  line-height: 90px;
+  margin: 0 5px;
+}
+nav ul li a {
+  padding-left: 0px;
+  color: rgb(248, 247, 247);
+  font-size: 17px;
+  font-weight: bold;
+  margin-right: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+}
+nav ul li :hover {
+  color: rgb(0, 0, 0);
+}
+.logo {
+  color: rgb(255, 255, 255);
+  line-height: 90px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30px;
+  display: inline-table;
+  text-align: left;
+}
+.gambar1 {
+  text-align: center;
+}
+.gambar1 img {
+  width: 500px;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.text1 {
+  background-color: rgba(99, 20, 131, 0.39);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.text1 h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.text1 p {
+  font-size: 15px;
+}
+.text2 {
+  background-color: rgba(179, 56, 196, 0.575);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.text3 {
+  background-color: rgba(197, 60, 190, 0.692);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
